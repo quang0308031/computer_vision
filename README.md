@@ -77,6 +77,7 @@ history = model.fit(x=datas, y=labels_onehot, batch_size=64, epochs=100, validat
 
 
 ## Tham khảo
-[Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
-[Bidirectional Cross-Modal Knowledge Exploration for Video Recognition with Pre-trained Vision-Language Models](https://arxiv.org/pdf/2301.00182.pdf)
+- [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
+
+- [Bidirectional Cross-Modal Knowledge Exploration for Video Recognition with Pre-trained Vision-Language Models](https://arxiv.org/pdf/2301.00182.pdf)
 
