@@ -2,3 +2,4 @@ tensorflow==2.14.1
 ultralytics==8.1.9
 opencv-python==4.9.0
 numpy==1.26.3
+scikit-learn==1.2.2
