@@ -22,4 +22,4 @@ Bước đầu tiên trong chuẩn hóa dữ liệu là trích xuất frame từ
 
 Tiếp theo, chúng ta cần có một mô hình YOLO để khoanh vùng những phần quan trọng cần chú ý trong ảnh. Ví dụ:
 
-![Khoan vùng từ điểm thấp nhất của tay đến đỉnh đầu](images/Untitled.png)
+^![Khoan vùng từ điểm thấp nhất của tay đến đỉnh đầu](images/Untitled.png)^
