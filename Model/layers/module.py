@@ -9,10 +9,10 @@ class EMA_Layer(tf.keras.layers.Layer):
         self.alpha = alpha
 
     def call(self, x):
-        split = tf.split(x, x.shape[-2], axis=-2)
+        split = tf.split(x, x.shape[1], axis=1)
         ema_tensor = split[0]
-        for i in range(1, x.shape[-2]):
-            ema_tensor = tf.concat([ema_tensor, split[i] * self.alpha + ema_tensor[... , -1:, :] * (1 - self.alpha)], axis=-2)
+        for i in range(1, x.shape[1]):
+            ema_tensor = tf.concat([ema_tensor, split[i] * self.alpha + ema_tensor[:, -1:,...] * (1 - self.alpha)], axis=1)
 
         return ema_tensor
 

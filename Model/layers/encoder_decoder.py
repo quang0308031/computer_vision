@@ -1,11 +1,11 @@
 import tensorflow as tf
 import numpy as np
 from tensorflow import keras
-from Attention import GlobalSelfAttention
-from module import FeedForward
-from Attention import CausalSelfAttention
-from Attention import CrossAttention
-from module import AttentionFrame
+from .Attention import GlobalSelfAttention
+from .module import FeedForward
+from .Attention import CausalSelfAttention
+from .Attention import CrossAttention
+from .module import AttentionFrame
 
 @keras.saving.register_keras_serializable()
 class EncoderLayer(tf.keras.layers.Layer):

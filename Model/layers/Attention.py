@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 from tensorflow import keras
-from module import EMA_Layer
+from .module import EMA_Layer
 import math
 
 @keras.saving.register_keras_serializable()

@@ -1,9 +1,9 @@
 import tensorflow as tf
 import numpy as np
 from tensorflow import keras
-from layers.module import PositionalEmbedding
-from layers.encoder_decoder import Encoder
-from layers.encoder_decoder import Decoder
+from .layers.module import PositionalEmbedding
+from .layers.encoder_decoder import Encoder
+from .layers.encoder_decoder import Decoder
 
 @keras.saving.register_keras_serializable()
 class Transformer(tf.keras.Model):
